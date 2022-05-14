@@ -21,5 +21,3 @@ stage('Continuious Delivery')
     sh 'scp /home/ubuntu/.jenkins/workspace/ScriptedPipeline/webapp/target/webapp.war ubuntu@172.31.10.51:/var/lib/tomcat8/webapps/prodenv.war'
      }
 }
-
-}
